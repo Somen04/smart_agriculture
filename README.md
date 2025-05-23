@@ -28,7 +28,7 @@ The dataset includes sensor data on:
 
 🧠 **Model Structure & Performance**
 
-### 🔹 `model/` and `model_faulty/`
+### 🔹 `model` and `model_faulty`
 These directories contain:
 - **Decision Tree**
 - **Random Forest**
