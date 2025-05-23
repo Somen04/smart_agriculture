@@ -1,4 +1,5 @@
- 🌾 Smart Agriculture - Crop and Fertilizer Recommendation System
+
+## 🌾 Smart Agriculture - Crop and Fertilizer Recommendation System
 
 🔍 **Project Overview**
 
@@ -27,17 +28,17 @@ The dataset includes sensor data on:
 
 🧠 **Model Structure & Performance**
 
- 🔹 `model` and `model_faulty`
+### 🔹 `model` and `model_faulty`
 These directories contain:
 - **Decision Tree**
 - **Random Forest**
 - **Naive Bayes**
 
- 🔹 `pnn` and `pnn_faulty`
+### 🔹 `pnn` and `pnn_faulty`
 These contain :
 **Probabilistic Neural Network (PNN)** 
 
- 🔹 `new_model` and `new_model_faulty`
+### 🔹 `new_model` and `new_model_faulty`
 These directories feature:
 - **Logistic Regression**
 - **K-Nearest Neighbors (KNN)**
