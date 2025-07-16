@@ -73,16 +73,16 @@ We are building a robust pipeline to detect sensor faults using:
 To ensure data reliability from sensors, a robust fault detection mechanism has been implemented.
 
 fault_labeling.ipynb
-Implements the fault labeling algorithm.
+   Implements the fault labeling algorithm.
 
-Produces faulty_crop_dataset_labeled.csv containing labeled data with sensor status (Normal/Faulty).
+   Produces faulty_crop_dataset_labeled.csv containing labeled data with sensor status (Normal/Faulty).
 
 fault_detection.ipynb
 Combines:
 
-PNN (Probabilistic Neural Network) for point-wise anomaly detection.
+   PNN (Probabilistic Neural Network) for point-wise anomaly detection.
 
-HMM (Hidden Markov Model) for time-aware fault pattern analysis.
+   HMM (Hidden Markov Model) for time-aware fault pattern analysis.
 
 This two-step pipeline helps isolate both instantaneous sensor faults and intermittent/temporal anomalies effectively.
 
