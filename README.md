@@ -1,7 +1,7 @@
 
-## 🌾 Smart Agriculture - Crop and Fertilizer Recommendation System
+##  Smart Agriculture - Crop and Fertilizer Recommendation System
 
-🔍 **Project Overview**
+**Project Overview**
 
 This Smart Agriculture project leverages various machine learning models to:
 - Recommend the most suitable **crop** to cultivate.
@@ -26,7 +26,7 @@ The dataset includes sensor data on:
 
 ---
 
-🧠 **Model Structure & Performance**
+**Model Structure & Performance**
 
 ### 🔹 `model` and `model_faulty`
 These directories contain:
@@ -49,13 +49,13 @@ Note: Detailed accuracy metrics for Decision Tree, Random Forest, Naive Bayes, K
 
 ---
 
-✅ **Best Performing Models**
+**Best Performing Models**
 
 **XGBoost** models showed the highest performance, particularly in crop prediction, with superior precision, recall, and F1 scores.
 
 ---
 
-🔧 **Next Steps – Fault Detection Pipeline**
+**Next Steps – Fault Detection Pipeline**
 
 We are building a robust pipeline to detect sensor faults using:
 
@@ -68,8 +68,27 @@ We are building a robust pipeline to detect sensor faults using:
      - 📉 HMM (Hidden Markov Model)
 
 ---
+Fault Detection System – Updated
 
-👨‍💻 **Project Contributors**
+To ensure data reliability from sensors, a robust fault detection mechanism has been implemented.
+
+fault_labeling.ipynb
+Implements the fault labeling algorithm.
+
+Produces faulty_crop_dataset_labeled.csv containing labeled data with sensor status (Normal/Faulty).
+
+fault_detection.ipynb
+Combines:
+
+PNN (Probabilistic Neural Network) for point-wise anomaly detection.
+
+HMM (Hidden Markov Model) for time-aware fault pattern analysis.
+
+🔍 This two-step pipeline helps isolate both instantaneous sensor faults and intermittent/temporal anomalies effectively.
+
+---
+
+**Project Contributors**
 
 - Somen Senapati (Leader)  
 - Anurag Singh  
